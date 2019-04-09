@@ -20,6 +20,13 @@ testset_path = r"{}/data/raw/test.csv".format(a)
 trainset_path = r"{}/data/raw/train.csv".format(a)
 
 
+#########################################################
+# CNN params
+
+epochs = 40
+batch_size = 86
+
+
 
 if __name__ == "__main__":
     print(testset_path)
