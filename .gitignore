@@ -100,3 +100,7 @@ ENV/
 # mypy
 .mypy_cache/
 5-Plotfunction/German_Credit.csv
+7-Dog/dog-breed-identification/test/
+7-Dog/dog-breed-identification/train/
+7-Dog/dog-breed-identification/labels.csv
+7-Dog/dog-breed-identification/sample_submission.csv
