@@ -97,6 +97,13 @@ ENV/
 # mkdocs documentation
 /site
 
+#data
+
+/7-Dog/dogImages/
+/7-Dog/lfw/
+/7-Dog/lfw2/
+
+
 # mypy
 .mypy_cache/
 5-Plotfunction/German_Credit.csv
@@ -104,3 +111,10 @@ ENV/
 7-Dog/dog-breed-identification/train/
 7-Dog/dog-breed-identification/labels.csv
 7-Dog/dog-breed-identification/sample_submission.csv
+7-Dog/dogImages/test/001.Affenpinscher/Affenpinscher_00003.jpg
+7-Dog/dogImages/test/001.Affenpinscher/Affenpinscher_00047.jpg
+7-Dog/lfw/Adam_Herbert/Adam_Herbert_0001.jpg
+7-Dog/lfw2/__MACOSX/lfw/._Ahmet_Demir
+7-Dog/dogImages.zip
+7-Dog/lfw.zip
+7-Dog/Churn_Modelling.csv
