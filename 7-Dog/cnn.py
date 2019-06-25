@@ -44,10 +44,12 @@ TEST_FOLDER =  r'%s/dog-breed-identification/test/test/'%config.kaggle_dataset_p
 
 train_df  = pd.read_csv(r'%s/dog-breed-identification/labels.csv'%config.kaggle_dataset_path)
 
+"""
 plt.figure(figsize=(13, 6))
 train_df['breed'].value_counts().plot(kind='bar')
 # plt.show()
 plt.close()
+"""
 
 # 取出前16數量多的品種來進行辨識
 top_breeds = sorted(list(train_df['breed'].value_counts().head(16).index))
