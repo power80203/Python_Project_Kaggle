@@ -194,7 +194,6 @@ epochs = 5
 batch_size = 20
 
 ### Do NOT modify the code below this line.
-
 checkpointer = ModelCheckpoint(filepath='saved_models/weights.best.from_scratch.hdf5', 
                                verbose=1, save_best_only=True)
 
